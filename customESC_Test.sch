@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -95,7 +96,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,15 +109,46 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="no"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-02" color="7" fill="1" visible="no" active="no"/>
+<layer number="146" name="DrillLegend_01-15" color="7" fill="1" visible="no" active="no"/>
+<layer number="147" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="gesam-Maß" color="7" fill="1" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="7" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="7" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="7" fill="1" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="7" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -153,6 +188,8 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
@@ -5010,6 +5047,107 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="X15-ESC-Controller-Parts-Library">
+<packages>
+<package name="1X05" urn="urn:adsk.eagle:footprint:37722/1" locally_modified="yes">
+<description>&lt;h3&gt;Plated Through Hole - 5 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_05&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="1.27" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="-0.635" x2="10.795" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="-1.27" x2="9.525" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="0.635" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.524" y="-2.286" size="0.6096" layer="25">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="STM_SWD_SYM">
+<description>&lt;h3&gt;5 Pin Connection&lt;/h3&gt;</description>
+<wire x1="3.81" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<text x="-7.62" y="8.128" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="NRST" x="7.62" y="-5.08" length="middle" direction="oc" rot="R180"/>
+<pin name="SWDIO" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="7.62" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="SWCLK" x="7.62" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="3V3" x="7.62" y="5.08" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWD_CONN" prefix="J">
+<gates>
+<gate name="G$1" symbol="STM_SWD_SYM" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X05">
+<connects>
+<connect gate="G$1" pin="3V3" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="NRST" pad="5"/>
+<connect gate="G$1" pin="SWCLK" pad="2"/>
+<connect gate="G$1" pin="SWDIO" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="3V3 -SWCLK-GND-SWDIO- NRST"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5122,6 +5260,8 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="J1" library="X15-ESC-Controller-Parts-Library" deviceset="SWD_CONN" device="" value="3V3 -SWCLK-GND-SWDIO- NRST"/>
+<part name="SUPPLY29" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_1" device="" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -5136,6 +5276,7 @@ Source: www.kingbright.com</description>
 <text x="25.4" y="172.72" size="3.81" layer="91">Board Inputs</text>
 <text x="100.33" y="129.54" size="3.81" layer="91">Potentiometer Input</text>
 <text x="106.68" y="78.74" size="3.81" layer="91">Real PWM Input</text>
+<text x="158.75" y="109.22" size="3.81" layer="91">USB_CON</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="3.81" y="3.81" smashed="yes">
@@ -5307,6 +5448,12 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY28" gate="GND" x="152.4" y="45.72" smashed="yes" rot="R180">
 <attribute name="VALUE" x="154.305" y="48.895" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="J1" gate="G$1" x="166.37" y="96.52" smashed="yes">
+<attribute name="NAME" x="158.75" y="104.648" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="SUPPLY29" gate="G$2" x="186.69" y="104.14" smashed="yes">
+<attribute name="VALUE" x="186.69" y="106.934" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5363,6 +5510,12 @@ Source: www.kingbright.com</description>
 <junction x="115.57" y="118.11"/>
 <pinref part="R9" gate="G$1" pin="E"/>
 <wire x1="115.57" y1="118.11" x2="115.57" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3V3"/>
+<wire x1="173.99" y1="101.6" x2="186.69" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="186.69" y1="104.14" x2="186.69" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="SUPPLY29" gate="G$2" pin="VCC_1"/>
 </segment>
 </net>
 <net name="VCC_2" class="0">
@@ -5456,6 +5609,11 @@ Source: www.kingbright.com</description>
 <pinref part="GREEN" gate="G$1" pin="C"/>
 <wire x1="152.4" y1="43.18" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="173.99" y1="96.52" x2="186.69" y2="96.52" width="0.1524" layer="91"/>
+<label x="184.15" y="96.52" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="PHASE_A1" class="0">
 <segment>
@@ -5502,6 +5660,11 @@ Source: www.kingbright.com</description>
 <pinref part="STM1" gate="G$1" pin="NRST"/>
 <wire x1="19.05" y1="52.07" x2="11.43" y2="52.07" width="0.1524" layer="91"/>
 <label x="11.43" y="52.07" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="NRST"/>
+<wire x1="173.99" y1="91.44" x2="186.69" y2="91.44" width="0.1524" layer="91"/>
+<label x="184.15" y="91.44" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="COM1" class="0">
@@ -5637,6 +5800,30 @@ Source: www.kingbright.com</description>
 <pinref part="RED" gate="G$1" pin="A"/>
 <wire x1="114.3" y1="33.02" x2="114.3" y2="31.75" width="0.1524" layer="91"/>
 <label x="114.3" y="31.75" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="SWDIO" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="SWDIO"/>
+<wire x1="173.99" y1="93.98" x2="186.69" y2="93.98" width="0.1524" layer="91"/>
+<label x="184.15" y="93.98" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="STM1" gate="G$1" pin="PA15"/>
+<wire x1="67.31" y1="80.01" x2="67.31" y2="81.28" width="0.1524" layer="91"/>
+<label x="67.31" y="81.28" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="SWCLK" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="SWCLK"/>
+<wire x1="173.99" y1="99.06" x2="186.69" y2="99.06" width="0.1524" layer="91"/>
+<label x="184.15" y="99.06" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="STM1" gate="G$1" pin="PA14"/>
+<wire x1="80.01" y1="67.31" x2="81.28" y2="67.31" width="0.1524" layer="91"/>
+<label x="81.28" y="67.31" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -6309,6 +6496,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 <note version="8.5" severity="warning">
 Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
