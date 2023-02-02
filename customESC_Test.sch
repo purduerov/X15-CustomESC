@@ -5324,8 +5324,8 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY4" gate="G$1" x="243.84" y="72.39" smashed="yes">
 <attribute name="VALUE" x="243.84" y="75.184" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY5" gate="GND" x="212.09" y="133.35" smashed="yes">
-<attribute name="VALUE" x="210.185" y="130.175" size="1.778" layer="96"/>
+<instance part="SUPPLY5" gate="GND" x="212.09" y="128.27" smashed="yes">
+<attribute name="VALUE" x="210.185" y="125.095" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY6" gate="GND" x="232.41" y="128.27" smashed="yes">
 <attribute name="VALUE" x="230.505" y="125.095" size="1.778" layer="96"/>
@@ -5537,7 +5537,6 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="212.09" y1="135.89" x2="212.09" y2="130.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
