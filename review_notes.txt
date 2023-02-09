@@ -1,0 +1,4 @@
+Put the reset button closer to the STM32
+Put the supply indicator LEDs closer to the actual supply, and the test LEDs near the test points they're connected to
+Something seems wrong with the diodes on the MOSFET switching circuits. The part is not working properly on the board.
+Make ground lines thicker, and make the supply lines to the output much bigger
