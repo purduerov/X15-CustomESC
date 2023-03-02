@@ -1,0 +1,67 @@
+Partlist
+
+Exported from customESC_Test.sch at 2/25/2023 1:22 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part      Value                               Device                              Package                      Library                          Sheet
+
+3.3V_TEST                                     CONN_01                             1X01                         SparkFun-Connectors              1
+12V_TEST                                      CONN_01                             1X01                         SparkFun-Connectors              1
+BLUE                                          LEDCHIPLED_0805                     CHIPLED_0805                 led                              1
+C1        10uF                                10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              2
+C2        2.2uF                               10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              2
+C3        10uF                                10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              2
+C4        2.2uF                               10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              2
+C5        10uF                                10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              2
+C6        2.2uF                               10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              2
+C25       0.1uF                               10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              1
+C26       4.7uF                               10UF-0603-6.3V-20%                  0603                         SparkFun-Capacitors              1
+D1        GREEN                               LED-GREEN0603                       LED-0603                     SparkFun-LED                     1
+D2        GREEN                               LED-GREEN0603                       LED-0603                     SparkFun-LED                     1
+D3        IN4148WS                            IN4148WS                            IN4148WS                     X15-CustomESC                    2
+D4        IN4148WS                            IN4148WS                            IN4148WS                     X15-CustomESC                    2
+D5        IN4148WS                            IN4148WS                            IN4148WS                     X15-CustomESC                    2
+DRIV1     IR2101STRPBF                        IR2101STRPBF                        IR2101STRPBF                 X15-CustomESC                    2
+DRIV2     IR2101STRPBF                        IR2101STRPBF                        IR2101STRPBF                 X15-CustomESC                    2
+DRIV3     IR2101STRPBF                        IR2101STRPBF                        IR2101STRPBF                 X15-CustomESC                    2
+GND_TEST                                      CONN_01                             1X01                         SparkFun-Connectors              1
+GREEN                                         LEDCHIPLED_0805                     CHIPLED_0805                 led                              1
+J1        3V3 -SWCLK-GND-SWDIO- NRST          SWD_CONN                            1X05                         X15-ESC-Controller-Parts-Library 1
+JP1                                           PINHD-1X1                           1X01                         pinhead                          1
+MOS1      IRLR7843TRPBF                       IRLR7843TRPBF                       IRLR7843TRPBF                X15-CustomESC                    2
+MOS2      IRLR7843TRPBF                       IRLR7843TRPBF                       IRLR7843TRPBF                X15-CustomESC                    2
+MOS3      IRLR7843TRPBF                       IRLR7843TRPBF                       IRLR7843TRPBF                X15-CustomESC                    2
+MOS4      IRLR7843TRPBF                       IRLR7843TRPBF                       IRLR7843TRPBF                X15-CustomESC                    2
+MOS5      IRLR7843TRPBF                       IRLR7843TRPBF                       IRLR7843TRPBF                X15-CustomESC                    2
+MOS6      IRLR7843TRPBF                       IRLR7843TRPBF                       IRLR7843TRPBF                X15-CustomESC                    2
+OUT1      IPBT-103-H1-T-S                     IPBT-103-H1-T-S                     IPBT-103-H1-T-S              X15-CustomESC                    1
+POWER     12V-CONNECTOR                       12V-CONNECTOR                       12V-CONNECTOR                X15-CustomESC                    1
+R1        150                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               1
+R2        1k                                  1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               1
+R3        100                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R4        100                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R5        100                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R6        100                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R7        100                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R8        100                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R9                                            3RP/1610N                           3RP/1610N                    pot                              1
+R27       1k                                  1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               1
+R28       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R29       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R30       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R31       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R32       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R33       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R34       10k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R35       10k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R36       10k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R37       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R38       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+R39       33k                                 1KOHM-0603-1/10W-1%                 0603                         SparkFun-Resistors               2
+RED                                           LEDCHIPLED_0805                     CHIPLED_0805                 led                              1
+S1        MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM TACTILE_SWITCH_SMD_6.0X3.5MM SparkFun-Switches                1
+STM1      STM32F042K6T6                       STM32F042K6T6                       STM32F042K6T6                X15-CustomESC                    1
+YELLOW                                        LEDCHIPLED_0805                     CHIPLED_0805                 led                              1

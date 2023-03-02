@@ -1715,6 +1715,15 @@ maxErrors = 50
 </signal>
 <signal name="TIM1">
 <contactref element="STM1" pad="PB0"/>
+<contactref element="R9" pad="2"/>
+<wire x1="54.98" y1="56.97" x2="54.98" y2="54.621" width="0.381" layer="1"/>
+<wire x1="54.98" y1="54.621" x2="55.88" y2="53.721" width="0.381" layer="1"/>
+<wire x1="55.88" y1="53.721" x2="55.88" y2="53.34" width="0.381" layer="1"/>
+<via x="55.88" y="53.34" extent="1-16" drill="0.35"/>
+<wire x1="55.88" y1="53.34" x2="55.88" y2="31.75" width="0.381" layer="16"/>
+<wire x1="55.88" y1="31.75" x2="57.15" y2="30.48" width="0.381" layer="16"/>
+<wire x1="57.15" y1="30.48" x2="57.15" y2="11.43" width="0.381" layer="16"/>
+<wire x1="57.15" y1="11.43" x2="53.34" y2="7.62" width="0.381" layer="16"/>
 </signal>
 <signal name="NRST">
 <contactref element="S1" pad="2"/>
@@ -2057,17 +2066,16 @@ maxErrors = 50
 <wire x1="96.94" y1="33.02" x2="95.25" y2="33.02" width="1.016" layer="1"/>
 </signal>
 <signal name="PWM_IN">
-<contactref element="R9" pad="2"/>
 <contactref element="STM1" pad="PA6"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="54.737" y1="8.763" x2="53.594" y2="7.62" width="0.381" layer="16"/>
-<wire x1="53.34" y1="7.62" x2="53.594" y2="7.62" width="0.381" layer="16"/>
-<via x="54.737" y="53.467" extent="1-16" drill="0.35"/>
-<wire x1="53.38" y1="56.97" x2="53.38" y2="54.824" width="0.381" layer="1"/>
-<wire x1="53.38" y1="54.824" x2="54.737" y2="53.467" width="0.381" layer="1"/>
-<wire x1="54.737" y1="8.763" x2="54.737" y2="53.467" width="0.381" layer="16"/>
-<wire x1="26.67" y1="11.43" x2="49.53" y2="11.43" width="0.762" layer="1"/>
-<wire x1="49.53" y1="11.43" x2="53.34" y2="7.62" width="0.762" layer="1"/>
+<via x="54.61" y="52.705" extent="1-16" drill="0.35"/>
+<wire x1="53.38" y1="56.97" x2="53.38" y2="53.935" width="0.381" layer="1"/>
+<wire x1="53.38" y1="53.935" x2="54.61" y2="52.705" width="0.381" layer="1"/>
+<wire x1="38.1" y1="22.86" x2="50.8" y2="22.86" width="0.762" layer="1"/>
+<wire x1="26.67" y1="11.43" x2="38.1" y2="22.86" width="0.762" layer="1"/>
+<wire x1="54.61" y1="26.67" x2="50.8" y2="22.86" width="0.762" layer="1"/>
+<via x="54.61" y="26.67" extent="1-16" drill="0.55"/>
+<wire x1="54.61" y1="52.705" x2="54.61" y2="26.67" width="0.762" layer="16"/>
 </signal>
 <signal name="TEST_LED4">
 <contactref element="STM1" pad="PB3"/>

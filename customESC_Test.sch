@@ -5641,6 +5641,12 @@ Source: www.kingbright.com</description>
 <wire x1="57.15" y1="19.05" x2="57.15" y2="17.78" width="0.1524" layer="91"/>
 <label x="57.15" y="17.78" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="S"/>
+<wire x1="120.65" y1="109.22" x2="123.19" y2="109.22" width="0.1524" layer="91"/>
+<label x="123.19" y="109.22" size="1.778" layer="95"/>
+<label x="123.19" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="NRST" class="0">
 <segment>
@@ -5737,11 +5743,6 @@ Source: www.kingbright.com</description>
 </segment>
 </net>
 <net name="PWM_IN" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="S"/>
-<wire x1="120.65" y1="109.22" x2="125.73" y2="109.22" width="0.1524" layer="91"/>
-<label x="125.73" y="109.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="STM1" gate="G$1" pin="PA6"/>
 <wire x1="46.99" y1="19.05" x2="46.99" y2="15.24" width="0.1524" layer="91"/>
